@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.title{
+  margin: 0 auto;
+  font-size: 52px;
+}
+
+.todo-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-container{
+  margin-top: 50px;
+  width: 550px;
+  min-height: 800px;
+  background:royalblue;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list-title{
+  width:100%;
+  height: 100px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addInput_container{
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.addInput{
+  margin: 0;
+  padding: 0;
+  text-indent: 15px;
+  width:89.5%;
+  height:94.5%;
+  font-size: 26px;
+}
+
+.btn{
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.submit-button{
+  width: 10%;
+  height: 100%;
+  font-size: 29px;
+  background: lightskyblue;
+}
+.submit-button:hover{
+  background: #64b8ec;
+}
+
+.list-items{
+  width: 100%;
+  min-height: 650px;
+}
+
+.todo-item{
+  border-radius: 2px;
+  height: 40px;
+  margin: 5px;
+  font-size: 28px;
+  background: lavenderblush;
+  display: flex;
+  align-items: center;
+}
+
+.delete-button{
+  height: 100%;
+  width: 10%;
+  font-size: 30px;
+  border-radius: 0px 2px 2px 0px;
+  background-color: rgb(241, 128, 128);
+}
+
+.delete-button:hover{
+  background: #e06868;
+}
+
+.time-button{
+  margin-left: auto;
+  height: 100%;
+  width: 12%;
+  font-size: 27px;
+  border-radius: 2px 0px 0px 2px;
+  background-color: rgb(241, 128, 128);
+}
+.time-button:hover{
+  background: #e06868;
+}
+
+
+.checkbox{
+  width: 20px;
+  height: 20px;
+}
+
+.infoButton{
+  border-radius: 3px;
+  background: royalblue;
+  font-size: 32px;
+  margin-top: 15px;
+  width: 550px;
+  height: 50px;
+  transition-duration: 0.2s;
+}
+
+.infoButton:hover{
+  background: rgb(45, 88, 216);
+}
