@@ -2,7 +2,7 @@
   "name": "react_todolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ZairoX-737.github.io",
+  "homepage": "https://ZairoX-737.github.io/To-Do_List",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
