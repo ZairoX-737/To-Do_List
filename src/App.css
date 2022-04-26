@@ -99,7 +99,6 @@ body {
   height: 100%;
   width: 12%;
   font-size: 27px;
-  border-radius: 2px 0px 0px 2px;
   background-color: rgb(241, 128, 128);
 }
 .time-button:hover {
@@ -126,5 +125,6 @@ body {
 }
 
 .total-checkbox {
-  margin: 20px 0;
+  margin: 10px 0;
+  font-size: 20px;
 }
