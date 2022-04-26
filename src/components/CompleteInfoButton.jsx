@@ -1,12 +1,17 @@
 import React from 'react'
 import '..//App.css'
 
-const CompleteInfoButton = ({onClick}) => {
-    return(
-        <>
-            <button className='btn infoButton' onClick={onClick}>Show amount of complete tasks</button>
-        </>
-    )
+const CompleteInfoButton = ({ handleClick, clicked, checked }) => {
+  return (
+    <>
+      <button className='btn infoButton' onClick={handleClick}>
+        Show amount of complete tasks
+      </button>
+      <div className='total-checkbox'>
+        {clicked && `Total Checkbox Checked: ${checked}`}
+      </div>
+    </>
+  )
 }
 
-export default CompleteInfoButton;
+export default CompleteInfoButton
